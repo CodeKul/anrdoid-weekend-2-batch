@@ -19,8 +19,6 @@ public class MainActivity extends Activity {
 
         Click clickMy = new Click();
 
-
-
         Button btnOkay =
                 (Button) findViewById(R.id.btnOkay);
         btnOkay.setOnClickListener(clickMy);
@@ -29,8 +27,8 @@ public class MainActivity extends Activity {
                 (Button) findViewById(R.id.btnDone);
         btnDone.setOnClickListener(clickMy);
 
-
-
+        Button btnSample =
+                (Button) findViewById(R.id.btnSample);
 
     }
 
