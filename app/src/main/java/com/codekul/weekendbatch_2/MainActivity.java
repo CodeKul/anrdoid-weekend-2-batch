@@ -14,6 +14,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        //px = dp * (dpi / 160)
+
         //getWindow().setBackgroundDrawableResource(R.drawable.my);
         setContentView(R.layout.activity_main);
 

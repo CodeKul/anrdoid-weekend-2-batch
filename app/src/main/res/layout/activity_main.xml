@@ -13,7 +13,7 @@
 
     <Button
         android:id="@+id/btnOkay"
-        android:layout_width="match_parent"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="okay"
         />
@@ -45,8 +45,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="{code}kul;"
-        android:textSize="50px"
-        android:layout_marginLeft="50px"/>
+        android:textSize="50sp"
+        android:layout_marginLeft="50dp"/>
 
     <ImageButton
         android:layout_width="wrap_content"
