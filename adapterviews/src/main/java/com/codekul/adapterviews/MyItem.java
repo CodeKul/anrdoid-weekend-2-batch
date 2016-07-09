@@ -3,7 +3,7 @@ package com.codekul.adapterviews;
 /**
  * Created by aniruddha on 3/7/16.
  */
-public class MyItem {
+public class MyItem { // POJO - plain old java object
 
     private long itemId;
     private int imageId;
