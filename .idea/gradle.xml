@@ -8,15 +8,25 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitylifecycle" />
             <option value="$PROJECT_DIR$/adapterviews" />
+            <option value="$PROJECT_DIR$/animations" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/customviews" />
+            <option value="$PROJECT_DIR$/handlingruntimechanges" />
+            <option value="$PROJECT_DIR$/handlingruntimechangesbyown" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitylifecycle" />
             <option value="$PROJECT_DIR$/adapterviews" />
+            <option value="$PROJECT_DIR$/animations" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/customviews" />
+            <option value="$PROJECT_DIR$/handlingruntimechanges" />
+            <option value="$PROJECT_DIR$/handlingruntimechangesbyown" />
           </set>
         </option>
       </GradleProjectSettings>
