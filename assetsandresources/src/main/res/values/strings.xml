@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AssetsAndResources</string>
+    <string name="textCodekul">{code}kul;</string>
+
+    <color name="pureBlack">#000000</color>
+
+    <string-array name="cities">
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Sangli</item>
+        <item>Nagpur</item>
+        <item>Kolhapur</item>
+    </string-array>
+
+</resources>
