@@ -1,75 +1,47 @@
 package com.melayer.intentandintentfilters;
 
 import android.content.Intent;
-import android.graphics.Color;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.RadioButton;
 
 public class MainActivity extends AppCompatActivity {
-
-    public static final String KEY_NEXT_COLOR = "color";
-    public static final int REQ_NEXT = 1234;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        findViewById(R.id.btnNext)
-                .setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btnNext).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Intent intent =
-                        new Intent(MainActivity.this,
-                                NextActivity.class);
-
-                RadioButton rb =
-                        (RadioButton) findViewById(R.id.radioRed);
-
-                Bundle bundle = new Bundle();
-
-                //bundle.putInt("key_any",1);
-                bundle.putString(KEY_NEXT_COLOR,rb.isChecked() ? "red" : "green");
-
-                intent.putExtras(bundle);
-
-                //startActivity(intent);
-
-                startActivityForResult(intent,REQ_NEXT);
+               call();
             }
         });
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
+    private void check(){
+        Intent intent =
+                new Intent(); // default category
+        intent.setAction("com.codekul.action.any");
+        intent.setData(Uri.parse("http://codekul.com"));
+        startActivity(intent);
+    }
 
-        if(requestCode == REQ_NEXT){
-            if(resultCode == RESULT_OK){
+    private void dial(){
 
-                if(data != null) {
+        Intent intent =
+                new Intent();
+        intent.setAction(Intent.ACTION_DIAL);
+        startActivity(intent);
+    }
 
-                    Bundle bundle = data.getExtras();
-                    String color = bundle
-                            .getString(NextActivity.KEY_COLOR_MAIN);
-
-                    if(!color.equals("none")){
-
-                        if(color.equals("red")){
-
-                            findViewById(R.id.linearMain).setBackgroundColor(Color.RED);
-                        }
-                        else {
-                            findViewById(R.id.linearMain).setBackgroundColor(Color.GREEN);
-                        }
-                    }
-                }
-            }
-        }
+    private void call(){
+        Intent intent =
+                new Intent();
+        intent.setAction(Intent.ACTION_CALL);
+        intent.setData(Uri.parse("tel://9762548833"));
+        startActivity(intent);
     }
 }

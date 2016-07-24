@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">IntentAndIntentFilters</string>
     <string name="btnNext">Next</string>
-    <string name="textRed">Red</string>
-    <string name="textGreen">Green</string>
-    <string name="textChangeColor">Chage</string>
-    <string name="btnBack">Back</string>
+    <string name="btnAny">Any</string>
 </resources>
