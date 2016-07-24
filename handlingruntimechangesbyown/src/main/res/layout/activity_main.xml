@@ -10,7 +10,25 @@
     tools:context="com.codekul.handlingruntimechangesbyown.MainActivity">
 
     <TextView
+        android:id="@+id/textState"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/imageState"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btnOkay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Okay"
+        android:layout_alignParentBottom="true"/>
+
 </RelativeLayout>

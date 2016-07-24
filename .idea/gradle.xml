@@ -12,9 +12,19 @@
             <option value="$PROJECT_DIR$/adapterviews" />
             <option value="$PROJECT_DIR$/animations" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/assetsandresources" />
+            <option value="$PROJECT_DIR$/broadcastreceivers" />
             <option value="$PROJECT_DIR$/customviews" />
+            <option value="$PROJECT_DIR$/dialognotifications" />
+            <option value="$PROJECT_DIR$/filemanipulation" />
+            <option value="$PROJECT_DIR$/fragments" />
             <option value="$PROJECT_DIR$/handlingruntimechanges" />
             <option value="$PROJECT_DIR$/handlingruntimechangesbyown" />
+            <option value="$PROJECT_DIR$/intentandintentfilters" />
+            <option value="$PROJECT_DIR$/interactivitycommunication" />
+            <option value="$PROJECT_DIR$/sharedpreferences" />
+            <option value="$PROJECT_DIR$/statusbarnotifications" />
+            <option value="$PROJECT_DIR$/toastnotifications" />
           </set>
         </option>
         <option name="myModules">
@@ -24,9 +34,19 @@
             <option value="$PROJECT_DIR$/adapterviews" />
             <option value="$PROJECT_DIR$/animations" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/assetsandresources" />
+            <option value="$PROJECT_DIR$/broadcastreceivers" />
             <option value="$PROJECT_DIR$/customviews" />
+            <option value="$PROJECT_DIR$/dialognotifications" />
+            <option value="$PROJECT_DIR$/filemanipulation" />
+            <option value="$PROJECT_DIR$/fragments" />
             <option value="$PROJECT_DIR$/handlingruntimechanges" />
             <option value="$PROJECT_DIR$/handlingruntimechangesbyown" />
+            <option value="$PROJECT_DIR$/intentandintentfilters" />
+            <option value="$PROJECT_DIR$/interactivitycommunication" />
+            <option value="$PROJECT_DIR$/sharedpreferences" />
+            <option value="$PROJECT_DIR$/statusbarnotifications" />
+            <option value="$PROJECT_DIR$/toastnotifications" />
           </set>
         </option>
       </GradleProjectSettings>

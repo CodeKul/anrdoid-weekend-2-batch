@@ -1,1 +1,1 @@
-include ':app', ':adapterviews', ':customviews', ':animations', ':activitylifecycle', ':handlingruntimechanges', ':handlingruntimechangesbyown'
+include ':app', ':adapterviews', ':customviews', ':animations', ':activitylifecycle', ':handlingruntimechanges', ':handlingruntimechangesbyown', ':fragments', ':toastnotifications', ':statusbarnotifications', ':dialognotifications', ':assetsandresources', ':interactivitycommunication', ':intentandintentfilters', ':broadcastreceivers', ':sharedpreferences', ':filemanipulation'

@@ -6,9 +6,19 @@
       <module fileurl="file://$PROJECT_DIR$/adapterviews/adapterviews.iml" filepath="$PROJECT_DIR$/adapterviews/adapterviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/animations/animations.iml" filepath="$PROJECT_DIR$/animations/animations.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assetsandresources/assetsandresources.iml" filepath="$PROJECT_DIR$/assetsandresources/assetsandresources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastreceivers/broadcastreceivers.iml" filepath="$PROJECT_DIR$/broadcastreceivers/broadcastreceivers.iml" />
       <module fileurl="file://$PROJECT_DIR$/customviews/customviews.iml" filepath="$PROJECT_DIR$/customviews/customviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialognotifications/dialognotifications.iml" filepath="$PROJECT_DIR$/dialognotifications/dialognotifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filemanipulation/filemanipulation.iml" filepath="$PROJECT_DIR$/filemanipulation/filemanipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/handlingruntimechanges/handlingruntimechanges.iml" filepath="$PROJECT_DIR$/handlingruntimechanges/handlingruntimechanges.iml" />
       <module fileurl="file://$PROJECT_DIR$/handlingruntimechangesbyown/handlingruntimechangesbyown.iml" filepath="$PROJECT_DIR$/handlingruntimechangesbyown/handlingruntimechangesbyown.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" filepath="$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interactivitycommunication/intentandintentfilters.iml" filepath="$PROJECT_DIR$/interactivitycommunication/intentandintentfilters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharedpreferences/sharedpreferences.iml" filepath="$PROJECT_DIR$/sharedpreferences/sharedpreferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statusbarnotifications/statusbarnotifications.iml" filepath="$PROJECT_DIR$/statusbarnotifications/statusbarnotifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toastnotifications/toastnotifications.iml" filepath="$PROJECT_DIR$/toastnotifications/toastnotifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/weekendbatch-2.iml" filepath="$PROJECT_DIR$/weekendbatch-2.iml" />
     </modules>
   </component>
