@@ -23,6 +23,7 @@
             <option value="$PROJECT_DIR$/intentandintentfilters" />
             <option value="$PROJECT_DIR$/interactivitycommunication" />
             <option value="$PROJECT_DIR$/sharedpreferences" />
+            <option value="$PROJECT_DIR$/sqlite" />
             <option value="$PROJECT_DIR$/statusbarnotifications" />
             <option value="$PROJECT_DIR$/toastnotifications" />
           </set>
@@ -45,6 +46,7 @@
             <option value="$PROJECT_DIR$/intentandintentfilters" />
             <option value="$PROJECT_DIR$/interactivitycommunication" />
             <option value="$PROJECT_DIR$/sharedpreferences" />
+            <option value="$PROJECT_DIR$/sqlite" />
             <option value="$PROJECT_DIR$/statusbarnotifications" />
             <option value="$PROJECT_DIR$/toastnotifications" />
           </set>
