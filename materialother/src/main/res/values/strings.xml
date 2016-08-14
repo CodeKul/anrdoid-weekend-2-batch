@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MaterialOther</string>
+    <string name="action_settings">Settings</string>
+    <string name="edtUserName">User Name</string>
+    <string name="edtPassword">Password</string>
+    <string name="actionCopy">Copy</string>
+</resources>
